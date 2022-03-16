@@ -1,0 +1,20 @@
+@media(max-width: 767px) {
+	.task {
+      display: block;
+      width: 100%;
+	}
+}
+
+@media(max-width: 767px) {
+	.filter {
+      display: block;
+      width: 100%;
+	}
+}
+
+@media(max-width: 767px) {
+	.details {
+      display: block;
+      width: 100%;
+	}
+}
