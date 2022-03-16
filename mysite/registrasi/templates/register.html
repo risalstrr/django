@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <form method="post">
-        {{ form }}
+    <form method="post" action=".">
+        {% csrf_token %} {{form}}
+        <input type="submit" value="Sign up">
     </form>
 </body>
 
