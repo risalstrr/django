@@ -1,9 +1,9 @@
 [build]
-  command = "python3 manage.py runserver"
+  command = "npm run build"
   publish = "/build"
-  base = "/"
+  base = "/index_anonymous.html"
 
 [[redirects]]
   from = "/*"
-  to = "/mysite/templates/index_anonymous.html"
+  to = "/index_anonymous.html"
   status = 200
