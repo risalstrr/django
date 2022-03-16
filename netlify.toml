@@ -5,5 +5,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/mysite/templates/index_anonymous.html"
   status = 200
