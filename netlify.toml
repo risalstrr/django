@@ -1,9 +1,0 @@
-[build]
-  command = "npm run build"
-  publish = "/build"
-  base = "/index_anonymous.html"
-
-[[redirects]]
-  from = "/*"
-  to = "/index_anonymous.html"
-  status = 200
